@@ -1,0 +1,137 @@
+body {
+    margin:0px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 400;
+  }
+  .center {
+    margin: 40px;
+  }
+  .topbar{
+    overflow: hidden;
+    background: #C8CBD0;
+    box-shadow: 0px 4px 0 0 #4D5259;
+  }
+  
+  .topbar a {
+    background: #748E54;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    box-shadow: 4px 0px 0 0 #54673C;
+  }
+  
+  .topbar a:hover {
+    background-color: #92AC72;
+    color: black;
+  }
+  
+  .topbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .round{
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: .5em 0.5em;
+    border-radius: 500px;
+    outline: 0;
+    transition: ease all .1s;
+  }
+
+  .round:active {
+    transform: translateY(4px) translateX(4px);
+  }
+  .round:hover {
+    background: #ffffff00;
+  }
+  
+  .settings {
+    font-size: 10px;
+    color: #4D5259;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: .5em 2em;
+    background: #FFFFFF;
+    border: 2px solid #4D5259;
+    box-shadow: 4px 4px 0 0 #4D5259;
+    outline:0;
+  }
+  
+  .settings:active {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: 0px 0px 0 0 #4D5259;
+  }
+  .settings:hover {
+    background: #d3d3d3;
+  }
+  .h1not {
+    padding-top: 50px;
+    font-weight: 500;
+  }
+
+  .h5not {
+    font-weight: 300;
+  }
+  
+  .link1 {
+    color: black;
+  }
+
+  .btn1 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    background-color: #787878;
+    padding: 7px 7px;
+    border: solid #454545 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    transition : 1000ms;
+    padding: 7px 7px;
+    transform : translateY(-0px);
+    background-color: #383838;
+    color: #ffffff;
+    border: solid 2px #000000;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 7px 7px;
+    border: solid #5a5a5a 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transition : 1000ms;
+    padding: 7px 7px;
+    transform : translateY(-0px);
+    background-color: #bebebe;
+    color: #000000;
+    border: solid 2px #000000;
+}
